@@ -1,0 +1,166 @@
+﻿<Window x:Class="Лучшая_работа_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лучшая_работа_2"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        ResizeMode="NoResize" 
+        Height="500"
+        Width="830">
+
+    <Grid Background="DarkCyan">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0"
+                Margin="6,6,0,6"
+                CornerRadius="16"
+                Background="Aquamarine">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Top">
+                <Button 
+                    Content="Задание 1"
+                    Cursor="Hand"
+                    x:Name="BTn1"
+                    Margin="3"
+                    Click="BTn1_Click"    
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+
+                <Button 
+                    Content="Задание 2"
+                    Cursor="Hand"
+                    x:Name="BTn2"
+                    Margin="3"
+                    Click="BTn2_Click"    
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+
+                <Button 
+                    Content="Задание 3"
+                    Cursor="Hand"
+                    x:Name="BTn3"
+                    Margin="3"
+                    Click="BTn3_Click"    
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+
+                <Button 
+                    Content="Задание 4"
+                    Cursor="Hand"
+                    x:Name="BTn4"
+                    Margin="3"
+                    Click="BTn4_Click"    
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+
+                <Button 
+                    Content="Задание 5"
+                    Cursor="Hand"
+                    x:Name="BTn5"
+                    Margin="3"
+                    Click="BTn5_Click"    
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+                
+                <Button
+                    Content="Задание 6"
+                    Cursor="Hand"
+                    x:Name="Btn6"
+                    Margin="3"
+                    Click="BTn6_Click"
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+                
+                <Button
+                    Content="Задание 7"
+                    Cursor="Hand"
+                    x:Name="Btn7"
+                    Margin="3"
+                    Click="BTn7_Click"
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+
+                <Button
+                    Content="Задание 8"
+                    Cursor="Hand"
+                    x:Name="Btn8"
+                    Margin="3"
+                    Click="BTn8_Click"
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+
+                <Button
+                    Content="Задание 9"
+                    Cursor="Hand"
+                    x:Name="Btn9"
+                    Margin="3"
+                    Click="BTn9_Click"
+                    BorderThickness="2"
+                    Background="Aquamarine"/>   
+
+                <Button
+                    Content="Задание 10"
+                    Cursor="Hand"
+                    x:Name="Btn10"
+                    Margin="3"
+                    Click="BTn10_Click"
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+
+                <Button
+                    Content="Задание 11"
+                    Cursor="Hand"
+                    x:Name="Btn11"
+                    Margin="3"
+                    Click="BTn11_Click"
+                    BorderThickness="2"
+                    Background="Aquamarine"/>
+
+                <Button
+                    Content="Задание 12"
+                    Cursor="Hand"
+                    x:Name="Btn12"
+                    Margin="3"
+                    Click="BTn12_Click"
+                    BorderThickness="2"
+                    Background="Aquamarine"/>       
+
+            </StackPanel>
+        </Border>
+
+
+
+        <Border Grid.Column="1"
+                Margin="32,10,23,416"
+                CornerRadius="150"
+                Background="LightSkyBlue">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <TextBlock Text="РЕШЕНИЕ ЗАДАЧИ:"
+                           FontSize="38"
+                           Foreground="GreenYellow"
+                           FontWeight="Bold"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Column="1"
+                Margin="32,103,23,6"
+                CornerRadius="45"
+                Background="Aquamarine">
+            <Frame Grid.Column="1"
+                   x:Name="MainFrame"
+                   NavigationUIVisibility="Hidden"
+                   Grid.RowSpan="2"/>
+        </Border>
+        <Image Source="/image/1605864398_2.jpg"
+               Margin="299,273,4,28"
+               Grid.Column="1">
+        </Image>
+    </Grid>
+</Window>
